@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learning the Robot Framework</title>
+</head>
+<body>
+  <h1>Login Form</h1>
+  <form>
+    <label for="username">Enter Username:</label>
+    <input type="text" id="username"><br><br>
+    <label for="password">Enter Password:</label>
+    <input type="password" id="password"><br><br>
+    <button type="button" onclick="validateLogin()">Login</button>
+    <p id="message"></p>
+  </form>
+
+  <script>
+    function validateLogin() {
+      var user = document.getElementById("username").value;
+      var pass = document.getElementById("password").value;
+      var msg = document.getElementById("message");
+
+      if (user === "robottester" && pass === "Sele@2025#nium") {
+        msg.textContent = "Login successful!";
+      } else {
+        msg.textContent = "Invalid credentials.";
+      }
+    }
+  </script>
+</body>
+</html>

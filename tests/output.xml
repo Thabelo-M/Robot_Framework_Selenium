@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-05-22T10:13:01.623185" rpa="false" schemaversion="5">
+<suite id="s1" name="Testcase1" source="C:\Users\ThabeloMuthuvhukuma\Downloads\robot-login-test\Robot_Framework_Selenium\tests\testcase1.robot">
+<test id="s1-t1" name="Empty Fields" line="10">
+<kw name="Open Browser">
+<msg time="2025-05-22T10:13:01.661539" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2025-05-22T10:13:01.661057" elapsed="0.000554">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Click Button">
+<arg>xpath://button[text()='Login']</arg>
+<status status="NOT RUN" start="2025-05-22T10:13:01.661940" elapsed="0.000043"/>
+</kw>
+<kw name="Page Should Contain">
+<arg>Invalid credentials.</arg>
+<status status="NOT RUN" start="2025-05-22T10:13:01.662193" elapsed="0.000020"/>
+</kw>
+<kw name="Close Browser">
+<status status="NOT RUN" start="2025-05-22T10:13:01.662352" elapsed="0.000018"/>
+</kw>
+<status status="FAIL" start="2025-05-22T10:13:01.659720" elapsed="0.002849">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" start="2025-05-22T10:13:01.625470" elapsed="0.037925"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Testcase1" id="s1" pass="0" fail="1" skip="0">Testcase1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
